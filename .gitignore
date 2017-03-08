@@ -251,3 +251,4 @@ paket-files/
 .idea/
 *.sln.iml
 /Challonge/Challonge/Auth.txt
+/Challonge/Challonge_old/Auth.txt

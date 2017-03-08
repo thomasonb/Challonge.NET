@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Challonge.API;
 
 namespace Challonge.Test
 {
@@ -10,6 +11,8 @@ namespace Challonge.Test
     {
         static void Main(string[] args)
         {
+            ChallongeService svc = new ChallongeService();
+            svc.GetTournaments();
         }
     }
 }
